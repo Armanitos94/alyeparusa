@@ -56,11 +56,6 @@
     });
 
 /* 
-   MixitUp
-   ========================================================================== */
-  $('#portfolio').mixItUp();
-
-/* 
    Touch Owl Carousel
    ========================================================================== */
     var owl = $(".touch-slider");
@@ -132,13 +127,7 @@
   });
 
 
-/* stellar js
-  ========================================================*/
-  $.stellar({
-    horizontalScrolling: true,
-    verticalOffset: 40,
-    responsive: true
-  });
+
 
 /* 
    Page Loader
