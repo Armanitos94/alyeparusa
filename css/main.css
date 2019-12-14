@@ -536,7 +536,7 @@ button:focus {
 }
 
 .slicknav_btn {
-  border-color: transparent;
+  border-color: #335da8;
 }
 
 .slicknav_menu .slicknav_icon-bar {
@@ -1264,4 +1264,8 @@ footer {
 
 .copyright p a:hover {
   color: #335da8;
+}
+
+#pricing {
+  padding-bottom: 0px;
 }
