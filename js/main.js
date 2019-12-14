@@ -14,8 +14,7 @@
     /* 
    One Page Navigation & wow js
    ========================================================================== */
-    //Initiat WOW JS
-    new WOW().init();
+
 
     // one page navigation 
     $('.main-navigation').onePageNav({
@@ -102,24 +101,6 @@
         removalDelay: 160,
         preloader: false,
         fixedContentPos: false,
-    });
-
-
-  /* 
-   SMOOTH SCROLL
-   ========================================================================== */
-    var scrollAnimationTime = 1200,
-        scrollAnimation = 'easeInOutExpo';
-
-    $('a.scrollto').on('bind', 'click.smoothscroll', function (event) {
-        event.preventDefault();
-        var target = this.hash;
-        
-        $('html, body').stop().animate({
-            'scrollTop': $(target).offset().top
-        }, scrollAnimationTime, scrollAnimation, function () {
-            window.location.hash = target;
-        });
     });
 
 /* 
