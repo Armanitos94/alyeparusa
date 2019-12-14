@@ -536,7 +536,7 @@ button:focus {
 }
 
 .slicknav_btn {
-  border-color: #335da8;
+  border-color: transparent;
 }
 
 .slicknav_menu .slicknav_icon-bar {
