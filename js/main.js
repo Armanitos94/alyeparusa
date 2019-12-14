@@ -15,7 +15,6 @@
    One Page Navigation & wow js
    ========================================================================== */
 
-
     // one page navigation 
     $('.main-navigation').onePageNav({
             currentClass: 'active'
@@ -126,6 +125,14 @@
     keyboardNav: true,
   });
 
+
+/* stellar js
+  ========================================================*/
+  $.stellar({
+    horizontalScrolling: true,
+    verticalOffset: 40,
+    responsive: true
+  });
 
 /* 
    Page Loader
