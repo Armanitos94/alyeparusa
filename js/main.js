@@ -126,13 +126,7 @@
   });
 
 
-/* stellar js
-  ========================================================*/
-  $.stellar({
-    horizontalScrolling: true,
-    verticalOffset: 40,
-    responsive: true
-  });
+
 
 /* 
    Page Loader
