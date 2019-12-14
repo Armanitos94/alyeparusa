@@ -6,8 +6,10 @@
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 200) {
             $('.scrolling-navbar').addClass('top-nav-collapse');
+            $('#main-logo').attr('src','img/logo.png');
         } else {
             $('.scrolling-navbar').removeClass('top-nav-collapse');
+            $('#main-logo').attr('src','img/logo-white.png');
         }
     });
 

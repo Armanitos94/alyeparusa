@@ -503,6 +503,15 @@ button:focus {
   color: #fff !important;
 }
 
+.top-nav-collapse .slicknav_btn {
+    border-color: #335da8;
+}
+
+.top-nav-collapse .slicknav_menu .slicknav_icon-bar {
+    background: #335da8;
+}
+
+
 .indigo {
   background: transparent;
 }
@@ -536,11 +545,11 @@ button:focus {
 }
 
 .slicknav_btn {
-  border-color: #335da8;
+  border-color: #fff;
 }
 
 .slicknav_menu .slicknav_icon-bar {
-  background: #335da8;
+  background: #fff;
 }
 
 /* only small tablets */
