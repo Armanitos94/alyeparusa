@@ -638,6 +638,7 @@ button:focus {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
+  color: #335da8;
 }
 
 .item-boxes:hover .icon {
@@ -735,9 +736,7 @@ button:focus {
   7. Video promo Style
    ========================================================================== */
 .video-promo {
-  background: #335da8;
-  color: #fff;
-  overflow: hidden;
+  background: url(../img/counter.jpg) fixed;
   position: relative;
 }
 
@@ -941,7 +940,9 @@ button:focus {
  10. Counter Section Style
  ========================================================================== */
 .counters {
-  background: url(../img/counter.jpg) fixed;
+  background: #335da8;
+  color: #fff;
+  overflow: hidden;
   position: relative;
 }
 
