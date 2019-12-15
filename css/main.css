@@ -613,6 +613,10 @@ button:focus {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  
+  background-color: #335da8;
+  color: #fff;
+  padding: 10px;
 }
 
 .item-boxes .icon {
@@ -638,7 +642,7 @@ button:focus {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #335da8;
+  color: #fff;
 }
 
 .item-boxes:hover .icon {
