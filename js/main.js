@@ -95,7 +95,7 @@
 /* 
    Back Top Link
    ========================================================================== */
-    var offset = 200;
+    /*var offset = 200;
     var duration = 500;
     $(window).scroll(function() {
       if ($(this).scrollTop() > offset) {
@@ -111,7 +111,7 @@
         scrollTop: 0
       }, 600);
       return false;
-    })
+    })*/
 
 /* Nivo Lightbox
   ========================================================*/   
