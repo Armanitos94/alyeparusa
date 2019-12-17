@@ -422,7 +422,7 @@ button:focus {
 }
 
 #hero-area .contents {
-  padding: 255px 0 130px;
+  padding-top: 40vh;
 }
 
 #hero-area .contents h1 {
@@ -1039,6 +1039,7 @@ button:focus {
   border-radius: 0px;
   background: #335da8;
   overflow: hidden;
+  margin-bottom: 15px;
 }
 
 .single-team img {
